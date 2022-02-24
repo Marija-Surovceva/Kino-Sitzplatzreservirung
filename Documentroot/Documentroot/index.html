@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://localhost:8000/getData"></script>
+    <script src="function.js"defer></script>
+    
+    <title>Kino</title>
+  </head>
+  <body>
+    <div class="film-container">
+      <label>Film waehlen</label>
+      <select id="kino">
+        <option value="15">Titanic (15€)</option>
+        
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="sitz"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="sitz selected"></div>
+        <small>Gewaehlt</small>
+      </li>
+      <li>
+        <div class="sitz Besetzt"></div>
+        <small>Besetzt</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="bildschirm"></div>
+      <div class="row">
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+      </div>
+
+      <div class="row">
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+      </div>
+
+      <div class="row">
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+      </div>
+
+      <div class="row">
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+      </div>
+
+      <div class="row">
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+      </div>
+
+      <div class="row">
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+        <div class="sitz"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      Sie haben gewaehlt <span id="zaeler">0</span> Sitze fuer den Preis: <span
+        id="total"
+        >0</span><span>€</span>
+    </p>
+  </body>
+</html>
